@@ -12,21 +12,23 @@ Client statistics:
 
 Query statistics:
 
-SQL Server Execution Times:
+ SQL Server Execution Times:
    CPU time = 0 ms,  elapsed time = 0 ms.
 SQL Server parse and compile time: 
-   CPU time = 0 ms, elapsed time = 0 ms.
+   CPU time = 9703 ms, elapsed time = 9826 ms.
 
-(20 rows affected)
-Table 'Worktable'. Scan count 31, logical reads 563417, physical reads 0, read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob read-ahead reads 0.
+(17 rows affected)
+Table 'Worktable'. Scan count 264, logical reads 4483020, physical reads 0, read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob read-ahead reads 0.
 Table 'Workfile'. Scan count 0, logical reads 0, physical reads 0, read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob read-ahead reads 0.
 
 (1 row affected)
 
  SQL Server Execution Times:
-   CPU time = 5031 ms,  elapsed time = 5149 ms.
+   CPU time = 46688 ms,  elapsed time = 8825 ms.
 SQL Server parse and compile time: 
    CPU time = 0 ms, elapsed time = 0 ms.
 
  SQL Server Execution Times:
    CPU time = 0 ms,  elapsed time = 0 ms.
+
+Completion time: 2022-03-23T16:23:35.4817602+04:00
