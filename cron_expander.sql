@@ -1,9 +1,14 @@
-
--- =============================================
--- Author:      Miljan Radovic
--- Create date: 2022-03-22
--- Description: Simple T-SQL Cron expander
--- =============================================
+/*
+=============================================
+ Author:      Miljan Radovic
+ Create date: 2022-03-22
+ Description:
+ Simple T-SQL Cron expander.
+ The cron command-line utility, also known as cron job, is a job scheduler on Unix-like operating systems.
+ The code sample implements cron expander functionality using pure T-SQL code, where it calculates previous, next and potentially second to next value for a given set of crons.
+ Code can convert multiple crons at the same time and, as expected, duration increasaes with adding more crons.
+=============================================
+*/
 
 -- * = any value
 -- , value list separator
