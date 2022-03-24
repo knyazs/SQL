@@ -35,10 +35,10 @@ begin
     FROM (select 1 as Door union all select 2 union all select 3) T
     WHERE T.Door not in (@prizeDoor, @chosenDoor)
 
-	set @winCountIfStay += case when @prizeDoor = @chosenDoor then 1 else 0 end
-	set @winCountIfSwitch += case when @prizeDoor = @chosenDoor then 0 else 1 end
+    set @winCountIfStay += case when @prizeDoor = @chosenDoor then 1 else 0 end
+    set @winCountIfSwitch += case when @prizeDoor = @chosenDoor then 0 else 1 end
 
-	set @counter = @counter + 1
+    set @counter = @counter + 1
 end
 
 select
